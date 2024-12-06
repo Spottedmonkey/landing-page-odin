@@ -194,7 +194,11 @@ body {
 }
 /* call to action code */
 
-footer {
+.footer {
     display: flex;
-    border: 2px solid blue;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+    padding: 30px 0;
 }
