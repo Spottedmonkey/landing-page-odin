@@ -158,10 +158,41 @@ body {
 }
 /* testimonial code */
 
+/* call to action code */
 .cta {
     display: flex;
-    border: 2px solid red;
+    background-color: #3882f6;
+    margin: 100px 225px;
+    padding: 75px 75px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
 }
+
+.cta .text {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    color: #f9faf8;
+    gap: 3px;
+}
+
+.cta .text p {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 200;
+}
+
+.cta button {
+    background-color: transparent;
+    border: 2px solid #f9faf8;
+    padding: 7px 30px;
+    border-radius: 7px;
+    color: #f9faf8;
+    font-size: 15px;
+    font-weight: 500;
+}
+/* call to action code */
 
 footer {
     display: flex;
