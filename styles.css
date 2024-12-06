@@ -139,13 +139,24 @@ body {
 }
 /* information block container code */
 
+/* testimonial code */
 .testimonial {
     display: flex;
     background-color: #e5e7eb;
-    padding: 200px;
+    padding: 200px 395px;
     font-size: 36px;
-    border: 2px solid blue;
+    font-weight: lighter;
+    color: #1f2937;
+    flex-direction: column;
 }
+
+.testimonial .author {
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+/* testimonial code */
 
 .cta {
     display: flex;
