@@ -13,11 +13,17 @@ body {
 /* header code */
     .header {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         padding: 15px 20px;
         background-color: #1f2937;
         align-items: center;
         flex-wrap: wrap;
+    }
+
+    .header .container {
+        display: flex;
+        justify-content: space-between;
+        width: 950px;
     }
 
     .header header {
