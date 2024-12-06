@@ -17,6 +17,7 @@ body {
         padding: 15px 20px;
         background-color: #1f2937;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     .header header {
@@ -35,14 +36,19 @@ body {
         text-decoration: none;
         color: #e5e7eb;
         font-size: 18px;
+        font-weight: 200;
     }
 /* header code */
 
+
+/* hero block code */
 .hero-block {
     display: flex;
     background-color: #1f2937;
     padding: 100px 20px;
     gap: 40px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .hero-block .text-block {
@@ -67,7 +73,7 @@ body {
 }
 
 .hero-block .text-block button {
-    color: #e5e7eb;
+    color: #f9faf8;
     background-color: #3882f6;
     padding: 9px 35px;
     border-radius: 8px;
@@ -82,7 +88,9 @@ body {
     flex: 1;
     background-color: grey;
     color: #e5e7eb;
+    min-height: 250px;
 }
+/* hero block code */
 
 .information-block-container {
     display: flex;
