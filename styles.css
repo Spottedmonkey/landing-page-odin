@@ -52,9 +52,14 @@ body {
     display: flex;
     background-color: #1f2937;
     padding: 100px 20px;
-    gap: 40px;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+.hero-block .container {
+    display: flex;
+    width: 950px;
+    gap: 40px;
 }
 
 .hero-block .text-block {
