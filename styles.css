@@ -15,7 +15,7 @@ body {
 /* header code */
     .header {
         display: flex;
-        padding: 15px 20px;
+        padding: 20px 20px;
         background-color: #222b13;
         align-items: center;
         flex-wrap: wrap;
@@ -33,7 +33,8 @@ body {
         text-decoration: none;
         color: #e5e7eb;
         font-size: 18px;
-        font-weight: 200;
+        font-weight: 400;
+        letter-spacing: 0.7px;
     }
 /* header code */
 
@@ -74,7 +75,6 @@ body {
     font-size: 25px;
     font-weight: bold;
 }
-
 /* hero block code */
 
 /* information block container code */
