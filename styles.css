@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Damion&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -39,57 +41,40 @@ body {
 /* hero block code */
 .hero-block {
     display: flex;
-    background-color: #1f2937;
-    padding: 100px 20px;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    background-image: url(images/mountains-troq.jpg);
+    background-color: #222b13;
+    background-position: center;
+    background-size: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-block .container {
     display: flex;
     width: 950px;
-    gap: 40px;
-}
-
-.hero-block .text-block {
-    display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    flex: 1;
-    gap: 15px;
+    margin: 175px 0px;
 }
 
-.hero-block .text-block header {
-    font-size: 48px;
-    font-weight: 900;
-    color: #f9faf8;
+.hero-block .container .picture-placeholder {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 150px;
+    font-family: 'borel', 'roboto', sans-serif;
+    color: #f09000;
+    height: 175px;
 }
 
-.hero-block .text-block p {
-    color: #e5e7eb;
-    font-size: 18px;
-    font-weight: 200;
-    line-height: 24px;
-}
-
-.hero-block .text-block button {
-    color: #f9faf8;
-    background-color: #3882f6;
-    padding: 9px 35px;
-    border-radius: 7px;
-    border: none;
+.hero-block .container .text-block {
+    display: flex;
+    color: #f09000;
+    font-family: 'borel', 'roboto', sans-serif;
+    justify-content: center;
+    font-size: 25px;
     font-weight: bold;
 }
 
-.hero-block .picture-placeholder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    background-color: grey;
-    color: #e5e7eb;
-    min-height: 250px;
-}
 /* hero block code */
 
 /* information block container code */
