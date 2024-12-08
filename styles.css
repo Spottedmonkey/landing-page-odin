@@ -9,7 +9,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto', sans-serif, 'Avenir next';
+    font-family: 'Avenir next', sans-serif, 'Avenir next';
 }
 
 /* header code */
@@ -52,7 +52,7 @@ body {
 
 .hero-block .container {
     display: flex;
-    width: 950px;
+    width: 940px;
     flex-direction: column;
     margin: 175px 0px;
 }
@@ -61,19 +61,17 @@ body {
     display: flex;
     align-content: center;
     justify-content: center;
-    font-size: 150px;
-    font-family: 'borel', 'roboto', sans-serif;
+    font-size: 175px;
     color: #f09000;
-    height: 175px;
+    height: 200px;
 }
 
 .hero-block .container .text-block {
     display: flex;
     color: #f09000;
-    font-family: 'borel', 'roboto', sans-serif;
     justify-content: center;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 500;
 }
 /* hero block code */
 
@@ -81,46 +79,51 @@ body {
 .information-block-container {
     display: flex;
     flex-direction: column;
+    background-color: #2f362e;
     justify-content: center;
     align-items: center;
-    padding-bottom: 100px;
+    padding: 30px 0 70px 0;
+    gap: 25px;
 }
-
 .information-block-container header {
-    font-size: 36px;
-    font-weight: 900;
-    color: #1f2937;
-    padding: 80px 0;
+    font-size: 34px;
+    font-weight: 600;
+    color: #f09000;
+    height: 42px;
+    text-align: center;
 }
 
 .information-block-container ol {
     display: flex;
-    gap: 50px;
-    justify-content: space-between
-}
-
-.information-block-container li {
     list-style: none;
-    text-align: center;
-    max-width: 190px;
-    font-weight: 200;
-    font-size: 18px;
-}
+    flex: 1;
+    gap: 20px;
+    justify-content: space-between;
+    width: 940px;
+    flex-wrap: wrap;
 
-.information-block-container .image-placeholder {
-    border: 3px solid #3882f6;
-    border-radius: 10px;
-    height: 190px;
-    width: 190px;
 }
 
 .information-block-container .content-card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
-    flex-wrap: wrap;
+    margin: 15px 0;
+    gap: 10px;
+    max-width: 200px;
+}
+
+.information-block-container .image-placeholder {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #222b13;
+    border-radius: 7px;
+}
+
+.information-block-container .content-card li {
+    text-align: center;
+    color: #e4e3e3;
+    font-size: 18px;
+    font-weight: 400;
 }
 /* information block container code */
 
