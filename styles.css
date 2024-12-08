@@ -135,7 +135,7 @@ body {
     padding: 200px 395px;
     font-size: 36px;
     font-weight: lighter;
-    color: #222b13;
+    color: #283b44;
     flex-direction: column;
 }
 
@@ -150,10 +150,8 @@ body {
 /* call to action code */
 .cta {
     display: flex;
-    background-color: #3882f6;
-    margin: 100px 225px;
-    padding: 75px 75px;
-    border-radius: 10px;
+    background-color: #36505b;
+    padding: 100px 75px;
     align-items: center;
     justify-content: space-around;
 }
@@ -162,20 +160,27 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 24px;
-    color: #f9faf8;
+    color: #e0decf;
     gap: 3px;
+}
+
+.cta .cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 940px;
 }
 
 .cta .text p {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #e0decf;
     font-weight: 200;
 }
 
 .cta button {
     background-color: transparent;
-    border: 2px solid #f9faf8;
-    padding: 7px 30px;
+    border: 2px solid #e0decf;
+    padding:7px 30px;
     border-radius: 7px;
     color: #f9faf8;
     font-size: 15px;
