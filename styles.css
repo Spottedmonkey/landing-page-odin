@@ -16,7 +16,7 @@ body {
     .header {
         display: flex;
         padding: 20px 20px;
-        background-color: #222b13;
+        background-color: #36505b;
         align-items: center;
         flex-wrap: wrap;
         justify-content: center;
@@ -31,7 +31,7 @@ body {
 
     .header ul li a {
         text-decoration: none;
-        color: #e4e3e3;
+        color: #e0decf;
         font-size: 18px;
         font-weight: 400;
         letter-spacing: 0.7px;
@@ -43,7 +43,7 @@ body {
 .hero-block {
     display: flex;
     background-image: url(images/mountains-troq.jpg);
-    background-color: #222b13;
+    background-color: #36505b;
     background-position: center;
     background-size: 100%;
     justify-content: center;
@@ -62,13 +62,13 @@ body {
     align-content: center;
     justify-content: center;
     font-size: 175px;
-    color: #f09000;
+    color: #e0decf;
     height: 200px;
 }
 
 .hero-block .container .text-block {
     display: flex;
-    color: #f09000;
+    color: #e0decf;
     justify-content: center;
     font-size: 25px;
     font-weight: 500;
@@ -79,16 +79,17 @@ body {
 .information-block-container {
     display: flex;
     flex-direction: column;
-    background-color: #2f362e;
+    background-color: #283b44;
     justify-content: center;
     align-items: center;
     padding: 30px 0 70px 0;
     gap: 25px;
 }
+
 .information-block-container header {
     font-size: 34px;
     font-weight: 600;
-    color: #f09000;
+    color: #e0decf;
     height: 42px;
     text-align: center;
 }
@@ -115,13 +116,13 @@ body {
 .information-block-container .image-placeholder {
     height: 200px;
     width: 200px;
-    border: 2px solid #222b13;
+    border: 2px solid #bcbbb5;
     border-radius: 7px;
 }
 
 .information-block-container .content-card li {
     text-align: center;
-    color: #e4e3e3;
+    color: #e0decf;
     font-size: 18px;
     font-weight: 400;
 }
@@ -130,11 +131,11 @@ body {
 /* testimonial code */
 .testimonial {
     display: flex;
-    background-color: #e5e7eb;
+    background-color: #bcbbb5;
     padding: 200px 395px;
     font-size: 36px;
     font-weight: lighter;
-    color: #1f2937;
+    color: #222b13;
     flex-direction: column;
 }
 
