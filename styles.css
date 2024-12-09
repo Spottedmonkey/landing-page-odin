@@ -44,7 +44,7 @@ body {
 /* hero block code */
 .hero-block {
     display: flex;
-    background-image: url(images/mountains-troq.jpg);
+    background-image: url(images/mountains-troq.jpg) ;
     background-color: #36505b;
     background-position: center;
     background-size: 100%;
@@ -115,10 +115,7 @@ body {
     max-width: 200px;
 }
 
-.information-block-container .image-placeholder {
-    height: 200px;
-    width: 200px;
-    border: 2px solid #bcbbb5;
+.information-block-container .content-card img {
     border-radius: 7px;
 }
 
