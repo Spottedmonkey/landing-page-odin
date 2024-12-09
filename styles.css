@@ -187,6 +187,13 @@ body {
     font-weight: 500;
     cursor: pointer;
 }
+
+.cta button:hover {
+    border: 2px solid #ff9f00;
+    transform: scale(1.1);
+    background-color: #ff9f00;
+    color: #36505b;
+}
 /* call to action code */
 
 .footer {
